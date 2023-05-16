@@ -1,0 +1,82 @@
+title: sahajcode
+author:
+  name: sahajcode
+  type: Organization
+
+lang: en_IN
+locale: en_IN
+tagline: computer science coaching, training, software development, testing and devops
+logo: /assets/logo/sahaj_code_logo_360_x_360.png
+image: /assets/logo/sahaj_code_logo_360_x_360.png
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Coaching, training and internship in software development, 
+  testing and devops for computer science students.
+
+social:
+  name: sahajcode
+  links:
+    - https://twitter.com/sahaj_code
+    - https://github.com/sahajcode
+    - https://www.youtube.com/@sahaj_code
+    - https://www.youtube.com/@sahaj_katha
+    - https://www.instagram.com/sahajkatha
+
+twitter:
+  username: sahaj_code
+  card: summary
+
+# domain: sahajcode.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+# url: https://www.sahajcode.com  # the base hostname and protocol for your site, e.g. http://example.com
+# baseurl: /  
+
+# Build settings
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  
+# Theme-specific settings
+
+sahajcode:
+  # sahajcode date format.
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #
+   date_format: "%b %-d, %Y"
+
+  # Generate social links in footer.
+  #
+   social_links:
+  #   - { platform: devto,          user_url: "https://dev.to/sahajcode" }
+  #   - { platform: dribbble,       user_url: "https://dribbble.com/sahajcode" }
+  #   - { platform: facebook,       user_url: "https://www.facebook.com/sahajcode" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/sahajcode" }
+  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=abcd" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/sahajcode" }
+  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/sahajcode" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/sahajcode" }
+  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/sahajcode" }
+  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/sahajcode" }
+  #   - { platform: telegram,       user_url: "https://t.me/sahajcode" }
+     - { platform: rss,            user_url: "feed.xml" }
+     - { platform: youtube,        user_url: "https://www.youtube.com/@sahaj_code",        profile: "sahaj_code"  }
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/sahaj_code" }  
+     - { platform: youtube,        user_url: "https://www.youtube.com/@sahaj_katha",        profile: "sahaj_katha"  }
+  #   - { platform: twitter,        user_url: "https://twitter.com/sahaj_code" }
+  #   - { platform: github,         user_url: "https://github.com/sahajcode/sahajcode" }
+
+# If you want to link only specific pages in your header, uncomment this and add the path to the pages in
+# order as they should show up.
+#
+header_pages:
+#   - newsarchive.md
+#   - books.md
+#   - courses.md
+
+# Set to `true` to show excerpts on the homepage.
+#
+show_excerpts: true
+
+google_analytics: G-CGG8FFQZ8W
